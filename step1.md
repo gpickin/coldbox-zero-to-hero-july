@@ -18,7 +18,7 @@ install --dev
 ### 1.3 - Start up a local server
 
 ```sh
-start cfengine=lucee@5 port=42518 --rewritesEnable
+start port=42518
 ```
 
 ### 1.4 - Open `http://localhost:42518/` in your browser. You should see the default ColdBox app template.
