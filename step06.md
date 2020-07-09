@@ -49,7 +49,7 @@ Run your tests `/tests/runner.cfm`
 
 Lets test the `list()` function exists
 
-Update the `/tests/specs/integration/UserServiceTest.cfc`, adding the content to the following `it` block.
+Update the `/tests/specs/unit/UserServiceTest.cfc`, adding the content to the following `it` block.
 
 ```js
 it( "can list all users", function() {
@@ -71,7 +71,7 @@ Run the tests and you'll see you tests pass.
 
 ### Lets make the `list()` function return the data
 
-Update the `/tests/specs/integration/UserServiceTest.cfc`, adding the content to the following `it` block. This will check the return type, to ensure the return is an array.
+Update the `/tests/specs/unit/UserServiceTest.cfc`, adding the content to the following `it` block. This will check the return type, to ensure the return is an array.
 
 ```js
 it( "can list all users", function() {
