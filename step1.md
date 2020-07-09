@@ -34,17 +34,9 @@ All your tests should be passing at this point. 😉
 ### 1.7 - Let's run the Tests via CommandBox
 
 ```sh
-testbox run "http://localhost:42518/tests/runner.cfm"
+testbox run 
 ```
 
-### 1.7.1 - Lets add this url to our server.json
-
-We can set the testbox runner into our server.json, and then we can easily run the tests at a later stage without having to type out the whole url. To do so, we use the `package set` command.
-
-```sh
-package set testbox.runner="http://localhost:42518/tests/runner.cfm"
-testbox run
-```
 
 ### 1.8 - Use CommandBox Test Watchers
 
